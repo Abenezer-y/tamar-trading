@@ -44,7 +44,7 @@ const Home = () => {
     <Content className="site-layout" style={{ marginTop: 64 }}>
     <Carousel autoplay>
         <div>
-           <img src="/banner-logistics.jpg"/>
+           <Image preview={false}  src="/banner-logistics.jpg"/>
         </div>
         <div>
           <h3 style={contentStyle}>2</h3>
@@ -89,7 +89,7 @@ const Home = () => {
     </Row>
 
           </Content>
-    <Footer style={{ textAlign: 'center'}}>Ant Design ©2018 Created by Ant UED</Footer>
+    <Footer style={{ textAlign: 'center'}}>Tamra ©2021</Footer>
   </Layout>
 
       </>
