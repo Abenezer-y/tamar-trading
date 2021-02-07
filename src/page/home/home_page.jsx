@@ -44,20 +44,7 @@ const Home = () => {
     <Content className="site-layout" style={{ marginTop: 64 }}>
     <Carousel autoplay>
         <div>
-          <Row>
-            <Col span={12}>
-            <Card title="Get Started">
-              
-            </Card>
-            </Col >
-            <Col span={12}>
-            <Image
-            height={400}
-            src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
-          />
-            </Col>
-          </Row>
-
+           <img src="/banner-logistics.jpg"/>
         </div>
         <div>
           <h3 style={contentStyle}>2</h3>
@@ -73,29 +60,29 @@ const Home = () => {
       <Row justify="space-around" align="middle">
       <Col >
       <Card hoverable style={{ width: 240,  marginTop: 64 }}
-            cover={<img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}>
-              <Meta title="Europe Street beat" description="www.instagram.com" />
+            cover={<img alt="example" src="/auto_sell.jpg" />}>
+              <Meta title="Car Sells" description="Description ..." />
             </Card>
 
       </Col>
       <Col >
       <Card hoverable style={{ width: 240,  marginTop: 64 }}
-            cover={<img alt="example" src="C:/web_app/tamra/public/car_sells.jpg" />}>
-              <Meta title="Europe Street beat" description="www.instagram.com" />
+            cover={<img alt="example" src="/parts.jpg" />}>
+              <Meta title="Spare Parts" description="Description ..." />
             </Card>
 
       </Col>
       <Col >
       <Card hoverable style={{ width: 240,  marginTop: 64 }}
-            cover={<img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}>
-              <Meta title="Europe Street beat" description="www.instagram.com" />
+            cover={<img alt="example" src="/decor.jpg" />}>
+              <Meta title="Decor" description="Description ..." />
             </Card>
 
       </Col>
       <Col >
       <Card hoverable style={{ width: 240,  marginTop: 64 }}
-            cover={<img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}>
-              <Meta title="Europe Street beat" description="www.instagram.com" />
+            cover={<img alt="example" src="/logistic.jpg" />}>
+              <Meta title="Transit" description="Description ..." />
             </Card>
 
       </Col>
