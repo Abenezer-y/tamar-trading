@@ -1,6 +1,16 @@
 @import 'antd/dist/antd.css';
 
 
+
+
+.card_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh; 
+  margin: 10; 
+}
+
 .App {
   text-align: center;
 }
