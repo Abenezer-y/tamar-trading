@@ -14,7 +14,6 @@ const Home = () => {
       
   return (
     <> 
-    <Router>
 
     <Carousel autoplay>
         <div> <Image preview={false}  src="/banner-logistics.jpg"/> </div>
@@ -50,10 +49,6 @@ const Home = () => {
       </Card>
       </Col>
     </Row>
-    <Switch>
-        <Route exact path="/cars"></Route>
-    </Switch>
-    </Router>
   </>
   );
 };
