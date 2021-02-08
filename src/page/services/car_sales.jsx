@@ -25,15 +25,15 @@ const CarsPage = () => {
               <Menu.Item key="buy" icon={<FundProjectionScreenOutlined />}>
                   Buy
               </Menu.Item>  
-              <Menu.Item key="/sell" icon={<DesktopOutlined twoToneColor="#eb2f96"/>}>
+              <Menu.Item key="sell" icon={<DesktopOutlined twoToneColor="#eb2f96"/>}>
                 Sell
-                <Link to="/"></Link>
+                <Link to="/sell"></Link>
               </Menu.Item>
           </SubMenu>
-          <Menu.Item key="/parts" icon={<DashboardOutlined />}>Spare Parts
+          <Menu.Item key="parts" icon={<DashboardOutlined />}>Spare Parts
               <Link to="/parts"></Link>
           </Menu.Item>
-          <Menu.Item key="/decor" icon={<DashboardOutlined />}>Decor
+          <Menu.Item key="decor" icon={<DashboardOutlined />}>Decor
               <Link to="/decor"></Link>
           </Menu.Item>
 
