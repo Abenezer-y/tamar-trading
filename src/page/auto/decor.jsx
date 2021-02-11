@@ -4,7 +4,7 @@ import {Input, Row, Col, Card} from 'antd';
 const { Search } = Input;
 const { Meta } = Card;
 
-const AboutPage = () => {
+const DecorPage = () => {
 
   return (
     <> 
@@ -14,7 +14,7 @@ const AboutPage = () => {
       <Col >
       <Card hoverable style={{ width: 280,  marginTop: 64 }}
             cover={<img src="/Tamarorng.svg" />}>
-        <Meta title="About" description="Description ..." />
+        <Meta title="DecorPage" description="Description ..." />
       </Card>
       </Col>
 
@@ -23,4 +23,4 @@ const AboutPage = () => {
   );
 };
 
-export default AboutPage;
+export default DecorPage;

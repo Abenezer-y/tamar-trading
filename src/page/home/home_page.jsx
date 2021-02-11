@@ -1,53 +1,41 @@
 import { Image, Carousel, Row, Col, Card,  } from 'antd';
-import './page.css'
-import {BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import '../page.css'
 import { Link } from 'react-router-dom';
 
 
 const { Meta } = Card;
 
-
 const Home = () => {
 
     const contentStyle = {height: '400px', color: '#fff', lineHeight: '160px', 
-                          textAlign: 'center', background: '#6D6D6D',};
-      
+                          textAlign: 'center', background: '#2A4058',};
+
   return (
     <> 
-
     <Carousel autoplay>
-        <div> <Image preview={false}  src="/banner-logistics.jpg"/> </div>
+        <div> <Image preview={false}  src="/Tamar header.svg"/> </div>
         <div> <h3 style={contentStyle}>2</h3> </div>
         <div> <h3 style={contentStyle}>3</h3> </div>
         <div> <h3 style={contentStyle}>4</h3> </div>
-      </Carousel>
-      <Row justify="space-around" align="middle">
-      <Col >
-      <Link to="/cars">
-      <Card hoverable style={{ width: 240,  marginTop: 64 }}
+    </Carousel>
+    <Row justify="space-around" align="middle" >
+      <Col > <Link to="/auto/buy">
+      <Card hoverable style={{ width: 240,  marginTop: 64,  color: '#2A4058' }}
             cover={<img alt="example" src="/auto_sell.jpg" />}>
         <Meta title="Car Sells" description="Description ..." />
-      </Card>
-      </Link> 
-      </Col>
-      <Col >
-      <Card hoverable style={{ width: 240,  marginTop: 64 }}
+      </Card> </Link> </Col>
+
+      <Col > <Link to="/auto/decor">
+      <Card hoverable style={{ width: 240,  marginTop: 64,  color: '#2A4058' }}
             cover={<img alt="example" src="/parts.jpg" />}>
-        <Meta title="Spare Parts" description="Description ..." />
-      </Card>
-      </Col>
-      <Col >
-      <Card hoverable style={{ width: 240,  marginTop: 64 }}
-            cover={<img alt="example" src="/decor.jpg" />}>
-        <Meta title="Decor" description="Description ..." />
-      </Card>
-      </Col>
-      <Col >
-      <Card hoverable style={{ width: 240,  marginTop: 64 }}
+        <Meta title="Auto Parts & Accessories" description="Description ..." />
+      </Card> </Link> </Col>
+
+      <Col > <Link to="/transit">
+      <Card hoverable style={{ width: 240,  marginTop: 64,  color: '#2A4058' }}
             cover={<img alt="example" src="/logistic.jpg" />}>
         <Meta title="Transit" description="Description ..." />
-      </Card>
-      </Col>
+      </Card> </Link> </Col>
     </Row>
   </>
   );
