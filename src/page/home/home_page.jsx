@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <> 
     <Carousel autoplay>
-        <div> <Image preview={false}  src="/Tamar header.svg"/> </div>
+        <div> <h3 style={contentStyle}>1</h3> </div>
         <div> <h3 style={contentStyle}>2</h3> </div>
         <div> <h3 style={contentStyle}>3</h3> </div>
         <div> <h3 style={contentStyle}>4</h3> </div>
@@ -25,7 +25,7 @@ const Home = () => {
         <Meta title="Car Sells" description="Description ..." />
       </Card> </Link> </Col>
 
-      <Col > <Link to="/auto/decor">
+      <Col > <Link to="/auto/parts">
       <Card hoverable style={{ width: 240,  marginTop: 64,  color: '#2A4058' }}
             cover={<img alt="example" src="/parts.jpg" />}>
         <Meta title="Auto Parts & Accessories" description="Description ..." />

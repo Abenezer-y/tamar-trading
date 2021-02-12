@@ -1,7 +1,7 @@
 import {Layout, Menu} from 'antd';
 import { Link } from 'react-router-dom';
 import { FundProjectionScreenOutlined, DashboardOutlined, DesktopOutlined} from '@ant-design/icons';
-import {HashRouter as Router, Switch, Route } from "react-router-dom";
+import {BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import CarsPage from './car_sales'
 import DecorPage from './decor'
 import PartsPage from './spares'

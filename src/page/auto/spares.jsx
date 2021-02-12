@@ -14,7 +14,7 @@ const PartsPage = () => {
       <Col >
       <Card hoverable style={{ width: 280,  marginTop: 64 }}
             cover={<img src="/Tamarorng.svg" />}>
-        <Meta title="PartsPage" description="Description ..." />
+        <Meta title="Parts Page" description="Description ..." />
       </Card>
       </Col>
 

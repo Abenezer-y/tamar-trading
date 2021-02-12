@@ -1,9 +1,11 @@
 import { Layout, Menu, Row, Col, Image } from 'antd';
 import Home from './page/home/home_page'
 import AutoPage from './page/auto/auto_frame'
+import DecorPage from './page/auto/decor'
+import PartsPage from './page/auto/spares'
 import AboutPage from './page/about_us/about_us'
 import TransitPage from './page/transit/transit'
-import {HashRouter as Router, Switch, Route } from "react-router-dom";
+import {BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Link } from 'react-router-dom';
 
 // color blue black  #2A4058
@@ -63,6 +65,8 @@ function App() {
                 <Route exact path="/" component={Home}></Route>
                 <Route exact path="/home" component={Home}></Route>
                 <Route exact path="/auto/buy" component={AutoPage}></Route>
+                <Route exact path="/auto/decors" component={DecorPage}></Route>
+                <Route exact path="/auto/parts" component={PartsPage}></Route>
                 <Route exact path="/transit" component={TransitPage}></Route>
                 <Route exact path="/about" component={AboutPage}></Route>
     </Switch>
